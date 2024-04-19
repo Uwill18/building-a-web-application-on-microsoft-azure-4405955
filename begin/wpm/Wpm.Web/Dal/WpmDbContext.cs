@@ -42,10 +42,10 @@ public class WpmDbContext : DbContext
                     new Pet() { Id = 1, Name = "Gianni", Age = 10, Weight = 19, PhotoUrl= "/images/gianni.jpg", BreedId = 1 },
                     new Pet() { Id = 2, Name = "Nina", Age = 8, Weight = 24, PhotoUrl = "/images/nina.jpg", BreedId = 1 },
                     new Pet() { Id = 3, Name = "Cati", Age = 8, Weight = 33.5m, PhotoUrl = "/images/cati.jpg", BreedId = 2 },
-                    new Pet() { Id = 4, Name = "Cheshire", Age = 20, Weight = 12, BreedId = 3 },
-                    new Pet() { Id = 5, Name = "Garfield", Age = 20, Weight = 12, BreedId = 4 },
-                    new Pet() { Id = 6, Name = "Bugs", Age = 40, Weight = 25, BreedId = 5 },
-                    new Pet() { Id = 7, Name = "Roger", Age = 35, Weight = 31, BreedId = 6 }
+                    new Pet() { Id = 4, Name = "Cheshire", Age = 20, Weight = 12, PhotoUrl = "/images/cheshire_cat.jpg", BreedId = 3 },
+                    new Pet() { Id = 5, Name = "Garfield", Age = 20, Weight = 12,PhotoUrl = "/images/Garfield.jpg", BreedId = 4 },
+                    new Pet() { Id = 6, Name = "Bugs", Age = 40, Weight = 25,PhotoUrl = "/images/Bugs.jpg", BreedId = 5 },
+                    new Pet() { Id = 7, Name = "Roger", Age = 35, Weight = 31,PhotoUrl = "/images/Roger_Rabit.jpeg", BreedId = 6 }
                     );
         modelBuilder.Entity("OwnerPet").HasData(
                     new[]
